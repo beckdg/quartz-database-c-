@@ -1,0 +1,56 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+
+# Compiled object files
+*.o
+*.obj
+*.os
+
+# Compiled libraries
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.user
+*.vcxproj*
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeUserPresets.json
+
+# Compilation database
+compile_commands.json
+
+# Coverage
+*.gcda
+*.gcno
+*.gcov
+coverage/
