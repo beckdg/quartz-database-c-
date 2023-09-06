@@ -1,0 +1,9 @@
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+
+if(NOT TARGET quartzdb)
+    include("${CMAKE_CURRENT_LIST_DIR}/QuartzDBTargets.cmake")
+endif()
+
+check_required_components(QuartzDB)
